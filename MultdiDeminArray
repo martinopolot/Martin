@@ -1,0 +1,18 @@
+class MultdiDeminArray{
+
+public static void main(String []args){
+int [][]marks = {{12,13,14},{21,31,41},{22,33,44}};
+
+// for loop statement to display the array marks;
+   //outer-loop
+for(int counter = 0; counter<marks.length; counter++){
+   //inner loop
+   for(int i = 0; i<marks[counter].length;i++){
+   System.out.print(marks[counter][i]+ "\t");
+   }
+ System.out.println();
+}
+
+}
+
+}
